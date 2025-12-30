@@ -10,6 +10,7 @@ public class TimerService {
         return DEFAULT_MINUTES;
     }
 
+    // todo 后续迭代
     public boolean isValidDuration(int minutes) {
         return minutes > 0 && minutes <= 180; // Allow 1 to 180 minutes
     }
